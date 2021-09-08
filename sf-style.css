@@ -2,7 +2,7 @@
        
 
 .slds-formcontainer{
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif !important;
             padding:1%;
         }
         
