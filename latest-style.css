@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+       
+
+.slds-formcontainer{
+            font-family: 'Inter', sans-serif !important;
+            padding:1%;
+        }
+        
+        .slds-text-heading_large{
+       
+            font-size:18px;
+            font-weight:700 !important;
+            color:#18181B !important;
+            text-align:left !important;
+            margin-bottom: 2rem !important;
+        }
+        
+        .slds-text-heading_large:after {
+            content: "";
+            display: block;
+            bottom : 0px;
+            width: 10%;
+            margin-top:7px;
+            background-color: #595BF6;
+            opacity:0.25;
+            height: 6px;
+            }
+        
+        .slds-form-element{
+            margin-top:14px !important;
+        }
+        .slds-form-element__label{
+            font-size:14px !important;
+        }
+        
+         #form{
+            display:flex !important;
+            flex-direction: row !important;
+            justify-content: center !important;
+        }
+        
+        
+        .slds-footer-button{
+            padding-top:1rem;
+            text-align: left;
+            
+            }  
+        
+        .slds-button_brand{
+          background-color : #595BF6 !important;
+          font-size:14px !important;
+          } 
+
+        .slds-formelementWidth{
+           -moz-appearance: none; -webkit-appearance: none; appearance: none;
+           font-size: 16px !important;
+           padding : 5px 10px;
+           border: 1px #D4D4D8 solid !important;
+           width:100%;
+           color:#18181B !important;
+           border-radius:3px !important;
+        }
+        
+        .slds-formelementWidth::placeholder{
+        
+           color:#E4E4E7;
+        }
+        
+        .slds-input::placeholder{
+        
+           color:#E4E4E7;
+        }
+        select{  
+          background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSdibGFjaycgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyB3aWR0aD0nMjQnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nTTcgMTBsNSA1IDUtNXonLz48cGF0aCBkPSdNMCAwaDI0djI0SDB6JyBmaWxsPSdub25lJy8+PC9zdmc+) no-repeat right #fff;
+          background-repeat: no-repeat;
+          background-position-x: 100%;
+          padding:5px 10px!important;
+          background-position-y: 3px; 
+          }  
+        
+
+        .slds-input{
+        
+           -moz-appearance: none; -webkit-appearance: none; appearance: none;
+           font-size: 14px !important;
+           padding : 5px 5px;
+           border: 1px #D4D4D8 solid !important;
+           width:100%;
+           color:#18181B !important;
+        
+        }
+        
+        .slds-elementbreak{
+            padding-top:1% !important;
+        }     
+        
+         .topBar{
+             padding: 1rem 0rem 1rem 0rem;
+             border-bottom: 1px #D4D4D8 solid !important;
+             margin-bottom : 2rem;
+             background: rgba(255,255,255,0.85);
+             position:fixed;
+             top:0;
+             min-width:100%;
+             display:block;
+             left:0;
+             z-index:99999;
+         }
+        
+        @media only screen and (max-width: 1920px) {
+        
+         .slds-formcontainer{
+             background:red;
+            padding:5rem 8rem;
+             max-width : 54rem;
+            }
+            
+            .topBar{
+            padding:1rem 8rem;
+            }
+         }
+ 
+         @media only screen and (max-width: 1024px) {
+        
+         .slds-formcontainer{
+             background:red;
+            padding:5rem 6rem;
+             max-width : 40rem;
+            }
+            
+            .topBar{
+            padding:1rem 6rem;
+            }
+         }         
+        
+         @media only screen and (max-width: 600px) {
+         .slds-formcontainer{
+          background:green;
+           padding:5rem 2rem;
+            }
+                        .topBar{
+            padding:1rem 2rem;
+            }
+            
+            .slds-formelementWidth{
+            font-size:16px !important;
+                             padding-top: 0.25rem !important;
+                padding-bottom: 0.25rem !important;
+            
+            }
+
+             .slds-input{
+             display: flex;      
+                 padding-top: 0.25rem !important;
+                padding-bottom: 0.25rem !important;
+             
+             }
+             
+                     .slds-button_brand{
+          background-color : #595BF6 !important;
+          font-size:14px !important;
+                           padding-top: 0.25rem !important;
+                padding-bottom: 0.25rem !important;
+          } 
+          }
+          
